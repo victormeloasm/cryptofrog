@@ -1,0 +1,45 @@
+* {
+    font-family: "Monospace";
+    color: #00FF00;
+    background-color: #000000;
+}
+
+GtkWindow {
+    background-color: #000000;
+}
+
+GtkEntry {
+    background-color: #000000;
+    color: #00FF00;
+    border: 1px solid #00FF00;
+    caret-color: #00FF00;
+}
+
+GtkButton {
+    background-color: #000000;
+    color: #00FF00;
+    border: 2px solid #00FF00;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+GtkButton:hover {
+    background-color: #00FF00;
+    color: #000000;
+}
+
+GtkLabel {
+    color: #00FF00;
+}
+
+@keyframes flicker {
+  0% { opacity: 1; }
+  50% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+
+.label-flicker {
+  color: #00ff00;
+  font-family: monospace;
+  animation: flicker 1.5s infinite;
+}
