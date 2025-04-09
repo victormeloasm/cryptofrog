@@ -1,32 +1,26 @@
-# Prerequisites
-*.d
+# Ignore compiled files and build directory
+/build/
+/*.o
+/*.obj
+/*.so
+/*.dll
+/*.exe
+/*.out
+/*.a
+/*.dylib
+/*.gch
+/*.pch
+/*.app
+/*.ecc
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Ignore temporary and backup files
+*~
+*.swp
 
-# Precompiled Headers
-*.gch
-*.pch
+# Ignore encrypted/decrypted files
+*.txt
+*.ecc
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
